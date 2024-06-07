@@ -10,17 +10,12 @@ body {
 }
 
 .container {
-    background-image: url('https://media4.giphy.com/media/jaOXKCxtBPLieRLI0c/giphy.gif?cid=6c09b952uys1wv9s8v4hnc7dbo339rgcjiunfvyovq9u6m5n&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: rgba(26, 26, 26, 0.8);
+    background-color: rgba(26, 26, 26, 0.85);
     border-radius: 10px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), 0 6px 6px rgba(0, 0, 0, 0.23);
     padding: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 20px 0;
 }
-
 
 h1 {
     color: #fff;
@@ -33,10 +28,12 @@ label {
 .navbar {
     background-color: #000;
     border-radius: 10px;
+    padding: 10px 20px;
 }
 
 .navbar-brand {
     color: #fff;
+    font-weight: bold;
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -54,17 +51,19 @@ label {
     border-radius: 5px;
     resize: none;
     color: #fff;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .btn-primary {
     background-color: red;
     border: 1px solid red;
     color: #fff;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
 .btn-primary:hover {
     background-color: #0056b3;
-    border: 1px solid #0056b3;
+    border-color: #0056b3;
 }
 
 .success-message {
@@ -106,6 +105,7 @@ label {
     margin-top: 20px;
     border-radius: 5px;
     color: #fff;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .center-placeholder::placeholder {
@@ -204,6 +204,7 @@ label {
         font-size: 18px;
     }
     video {
-    width: 100%;
-    border: 5px solid violet;
+        width: 100%;
+        border: 5px solid violet;
     }
+}
